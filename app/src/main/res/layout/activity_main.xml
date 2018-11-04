@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_background_layout"
+    tools:context="com.example.shikooo.wallpaper.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:layout_above="@id/view_pager_intro"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_alignParentBottom="true"
+       android:id="@+id/second_background_layout"
+       android:background="@drawable/border_slide_layout">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/dots_layout"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_centerHorizontal="true">
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_back"
+                android:text="Back"
+                android:visibility="invisible"
+                android:background="@color/colorTransparent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_next"
+                android:text="Next"
+                android:background="@color/colorTransparent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@android:color/white"
+
+                />
+           </RelativeLayout>
+</RelativeLayout>

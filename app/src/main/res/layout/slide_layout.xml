@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_background"
+    android:layout_marginBottom="60dp"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/credit1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:id="@+id/image_icon"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HEADING"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_icon"
+        android:layout_marginTop="15dp"
+        android:id="@+id/txt_heading"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_heading"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:id="@+id/txt_desc"
+        android:textColor="@color/colorWhite"
+
+        />
+
+</RelativeLayout>

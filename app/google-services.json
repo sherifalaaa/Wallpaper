@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622209526276",
+    "firebase_url": "https://wallpaper-5b1f6.firebaseio.com",
+    "project_id": "wallpaper-5b1f6",
+    "storage_bucket": "wallpaper-5b1f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622209526276:android:65b3ab95a0010f39",
+        "android_client_info": {
+          "package_name": "com.example.shikooo.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622209526276-4898hlcr4r539bl91gla32no0uhebkmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shikooo.wallpaper",
+            "certificate_hash": "d2d63df3f5442a8afe6caa0aa6938006f6e49ce7"
+          }
+        },
+        {
+          "client_id": "622209526276-tl77vkr76cjs5pm51rptij1smbjm2u1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqfJ22z3uA5rPgVsvcUwmfUYTgtPkza3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622209526276-tl77vkr76cjs5pm51rptij1smbjm2u1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
